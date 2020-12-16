@@ -621,7 +621,7 @@ def callConverter():
     variableForClass = Unicode()
     toPrint = variableForClass.convertBijoyToUnicode(bijoyText)
     entryLabel = tk.Label(root, text=toPrint, font=(
-        "durbar", 22))  # will show the string
+        "durbar", 32))  # will show the string
     entryLabel.grid(column=1, row=5)
 
 
